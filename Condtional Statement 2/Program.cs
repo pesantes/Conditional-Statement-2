@@ -99,6 +99,13 @@ namespace Condtional_Statement_2
                     Console.WriteLine("Your expected grade is F");
                     Console.ReadKey(true);
                 }
+                // If the user types a number outside of the range of 1 and 100.
+                else
+                {
+                    Console.WriteLine("Please enter an integer between 1 and 100 and try again ...");
+                    Console.WriteLine("Press any key to exit the program and try again ...");
+                    Console.ReadKey(true);
+                }
             } // End of try
             catch
             {
